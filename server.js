@@ -3,7 +3,7 @@ const os = require("os");
 const app = express();
 
 const PORT = process.env.PORT || 3000;
-const MENSAJE = process.env.MENSAJE_NUBE || "Despliegue Inicial v1.0";
+const MENSAJE = process.env.MENSAJE_NUBE || "Despliegue Automatizado v2.0";
 const MODO_MANTENIMIENTO = process.env.MODO_MANTENIMIENTO || "false";
 
 // Ruta principal
